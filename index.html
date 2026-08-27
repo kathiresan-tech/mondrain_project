@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .white{
+      background-color:#000;
+      height:748px;
+      width:748px;
+      display:grid;
+      grid-template-rows:414px 130px 1px 149px 20px;
+      grid-template-columns:320px 198px 153px 50px;
+      gap:9px;
+
+    }
+    .red{
+      background-color: red;
+    }
+    .wr{
+      background-color: #F0F1EC;
+      grid-column:span 3;
+    }
+    .wd{
+    background-color: #F0F1EC;
+    grid-row:span 3;
+    }
+    .wrd{
+      background-color: #F0F1EC;
+      grid-column:span 2;
+      grid-row:span 3;
+    }
+    .blue{
+      background-color: #004592;
+    }
+    .confusingw{
+      background-color:#F0F1EC ;
+      
+      grid-row:span 2;
+    }
+    .fwd{
+      background-color: #F0F1EC;
+    }
+    .idk{
+      background-color:#F9D01E ;
+    }
+    .px{
+      grid-area:3/4/4/5;
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="white">
+    <div class="red"></div>
+    <div class="wr"></div>
+    
+    <div class="wd"></div><div class="wrd"></div>
+    <div class="blue"></div>
+    <div class="px"></div>
+    <div class="confusingw"></div>
+    <div class="fwd"></div>
+    <div class="idk"></div>
+
+  </div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
